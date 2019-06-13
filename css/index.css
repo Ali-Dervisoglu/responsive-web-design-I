@@ -233,7 +233,39 @@ footer {
     }
 
     header nav a {
-        text-align: center;
         font-size: 24px;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+
+    .main-content .top-content .text-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .main-content .bottom-content .text-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+
+    .middle-img {
+        width: 40%;
+    }
+
+    .logo {
+        margin-left: 20%;
+     }
+
+     .cta .cta-text{
+        margin-left: 1%;
+    }
+
+    footer {
+        text-align:left;
+        margin-left:150px;
     }
 }
